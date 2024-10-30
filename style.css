@@ -1,0 +1,200 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #444; /* Darker text for better contrast */
+    background-color: #eaeef1; /* Softer background */
+}
+
+/* Header Section */
+header {
+    background-color: #6a8eae; /* Softer blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #34495e; /* Darker color for better contrast */
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f39c12; /* Highlight color on hover */
+}
+
+/* Product Section */
+section {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    background: #ffffff; /* White background for product section */
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+    width: 300px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #2980b9; /* Softer blue for headings */
+}
+
+section p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #555; /* Dark grey for body text */
+}
+
+/* Features Section */
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.feature {
+    width: 250px;
+    padding: 1.5rem;
+    background: #d5e9f3; /* Light blue background */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    color: #2980b9; /* Softer blue for feature headings */
+    margin-bottom: 0.5rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #f4f6f7; /* Light grey background for testimonials */
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2980b9; /* Softer blue for testimonials heading */
+}
+
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    width: 250px;
+    padding: 1rem;
+    background: #ffffff; /* White background for testimonials */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #666; /* Medium grey for testimonial text */
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #444; /* Dark grey for testimonial names */
+}
+
+/* Location Section */
+#location {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #e7f3fe; /* Light blue for location section */
+    margin: 2rem 0;
+    border-radius: 8px;
+}
+
+/* Purchase Section */
+#purchase {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#purchase h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2980b9; /* Softer blue for purchase heading */
+}
+
+.purchase-form input,
+.purchase-form button {
+    padding: 0.8rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0.5rem auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.purchase-form button {
+    background-color: #6a8eae; /* Softer blue for button */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.purchase-form button:hover {
+    background-color: #34495e; /* Darker color on hover */
+}
+
+/* Footer */
+footer {
+    padding: 1.5rem 0;
+    text-align: center;
+    background-color: #34495e; /* Darker footer background */
+    color: #ffffff; /* White text for footer */
+    font-size: 0.9rem;
+}
